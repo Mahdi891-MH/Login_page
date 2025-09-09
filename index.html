@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: linear-gradient(to left, #11afda, #18e9f4);
+        }
+
+        .container {
+            height: 300px;
+            max-width: 350px;
+            background: rgba(255, 255, 255, 0.2);
+            margin: 100px auto;
+            text-align: center;
+            border-radius: 5px;
+            padding: 40px 50px;
+            box-shadow: 0 0 5px #696969;
+        }
+
+        form input {
+            width: 100%;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            background-color: #fff;
+            border: 0;
+            outline: 0;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            cursor: pointer;
+        }
+
+        .message a {
+            text-decoration: none;
+            color: #008509;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="LOGIN">
+        </form>
+        <p class="message"><a href="#">Create a new account</a></p>
+    </div>
+</body>
+
+</html>
